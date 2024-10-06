@@ -40,7 +40,7 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link href="/Upload">
+                <Link href="/upload">
                   <button>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
