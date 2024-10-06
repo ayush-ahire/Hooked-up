@@ -8,7 +8,7 @@ import { ImCancelCircle } from "react-icons/im";
 import SuggestedAccounts from "../SuggestedAccounts/SuggestedAccounts";
 import Discover from "../Discover/Discover";
 import Footer from "../Footer/Footer";
-import useAuthStore from "../../../../store/authStore";
+import useAuthStore from "../../../store/authStore";
 const Sidebar: NextPage = () => {
   const [showSidebar, setShowSidebar] = useState<boolean>(true);
   const { pathname } = useRouter();

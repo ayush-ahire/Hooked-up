@@ -4,8 +4,8 @@ import { GoVerified } from "react-icons/go";
 import axios from "axios";
 import "../../pages/globals.css";
 
-import VideoCard from "../components/VideoCard/VideoCard";
-import NoResults from "../components/NoResult/NoResult";
+import VideoCard from "../../components/VideoCard/VideoCard";
+import NoResults from "../../components/NoResult/NoResult";
 import { IUser, Video } from "../../../types";
 import { BASE_URL } from "../../../utils";
 

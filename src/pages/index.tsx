@@ -1,11 +1,11 @@
 // import type { NextPage } from "next";
 import "./globals.css";
-import Navbar from "../pages/components/Navbar/Navbar";
+import Navbar from "../components/Navbar/Navbar";
 import { BASE_URL } from "../../utils";
 import axios from "axios";
 import { Video } from "../../types";
-import VideoCard from "../pages/components/VideoCard/VideoCard";
-import SideBar from "../pages/components/SideBar/SideBar";
+import VideoCard from "../components/VideoCard/VideoCard";
+import SideBar from "../components/SideBar/SideBar";
 // import NoResults from "./components/NoResults/NoResults";
 
 interface IProps {

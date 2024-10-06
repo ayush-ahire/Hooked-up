@@ -7,7 +7,7 @@ import { FaVolumeUp, FaVolumeMute } from "react-icons/fa";
 import { GoVerified } from "react-icons/go";
 import { BsPlay } from "react-icons/bs";
 
-import { Video } from "../../../../types";
+import { Video } from "../../../types";
 
 interface IProps {
   post: Video;

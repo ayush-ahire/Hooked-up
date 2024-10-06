@@ -1,11 +1,11 @@
 import "./navbar.css";
 import { GoogleLogin, googleLogout } from "@react-oauth/google";
 import { GoogleOAuthProvider } from "@react-oauth/google";
-import { createOrGetUser } from "../../../../utils";
+import { createOrGetUser } from "../../../utils";
 import Link from "next/link";
 import { AiOutlineLogout } from "react-icons/ai";
 import Image from "next/image";
-import useAuthStore from "../../../../store/authStore";
+import useAuthStore from "../../../store/authStore";
 export default function Navbar() {
   const { userProfile, addUser, removeUser } = useAuthStore();
   return (
