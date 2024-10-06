@@ -15,7 +15,7 @@ export default function Navbar() {
       <div className="Navbar flex z-10 gap-10 items-center ">
         <div className="flex justify-between w-full ">
           <div className="Logo">
-            <button className="button1 --font-family-button">HOOKED UP</button>
+            <button className="button1 --font-family-button">HOOKED🪝UP</button>
           </div>
           <div className="Menu  text-center rounded-[8px] text-white relative">
             <ul className="flex justify-between gap-20 p-[15px]">
