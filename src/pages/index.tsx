@@ -14,7 +14,7 @@ interface IProps {
 
 const Home = ({ videos }: IProps) => {
   return (
-    <div className="xl:w-[1200px] m-auto overflow-hidden h-[100vh] mt-4">
+    <div className="xl:w-[1200px] m-auto  overflow-hidden h-[100vh] mt-4">
       <Navbar />
       <div className="flex gap-6 md:gap-20 ">
         <div className="h-[92vh] overflow-hidden  ">
