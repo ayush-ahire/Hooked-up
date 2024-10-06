@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import Navbar from "../pages/components/Navbar/Navbar";
 import Sidebar from "../pages/components/SideBar/SideBar";
-import "../styles/globals.css";
+import "./globals.css";
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   const [isSSR, setIsSSR] = useState(true);
