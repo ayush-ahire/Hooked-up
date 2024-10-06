@@ -6,7 +6,7 @@ import Link from "next/link";
 import { MdOutlineCancel } from "react-icons/md";
 import { BsFillPlayFill } from "react-icons/bs";
 import { HiVolumeUp, HiVolumeOff } from "react-icons/hi";
-
+import "../../pages/globals.css";
 import Comments from "../../components/Comments/Comments";
 import { BASE_URL } from "../../../utils";
 import LikeButton from "../../components/LikeButton/LikeButton";
