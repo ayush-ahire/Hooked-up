@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+.videos::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(237, 237, 237);
+  border-radius: 40px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+html,
+body {
+  height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  scroll-behavior: smooth;
+}
+:root {
+  --background: background-color: #130f40;
+  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+
+  --font-family-button: font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.section__margin {
+  margin: 2rem 2rem;
+}
+
+.transparent__background {
+  backdrop-filter: blur(16px) saturate(143%);
+  -webkit-backdrop-filter: blur(16px) saturate(143%);
+  background-color: rgba(17, 25, 40, 0.42);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+/* From Uiverse.io by adamgiebl */
+.button1 {
+  background-color: #191714;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding: 12px;
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  position: relative;
+  box-shadow:
+    0 2px 10px rgba(0, 0, 0, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  z-index: 1;
+}
+
+.button1:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: #ffffff;
+  z-index: -1;
+  border-radius: 8px;
+}
+
+.button1:hover,
+.button1:focus {
+  color: rgb(0, 0, 0);
+}
+
+.button1:hover:before,
+.button1:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.button1:active {
+  transform: scale(0.9);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.videos::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(237, 237, 237);
+  border-radius: 40px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
